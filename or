@@ -1,0 +1,28 @@
+public class LogicalDemo {
+	public static void main(String[] args) {
+
+int x = 70;
+int y = 5;
+
+
+//Logical and
+System.out.println(x+">="+y+"&&"+x+"!="+y+"="+(x>=y&&x!=y));
+System.out.println(x+">"+y+"&&"+x+"=="+y+"="+(x>=y&&x==y));
+System.out.println(x+"<="+y+"&&"+x+">="+y+"="+(x<=y&&x<=y));
+System.out.println(x+"=="+y+"&&"+x+"<="+y+"="+(x==y&&x<=y));
+
+
+
+//Logicar or
+System.out.println(x+"x!"+y+"||"+x+">"+y+"="+(x!=y||x>y));
+System.out.println(x+"x!"+y+"||"+x+"=="+y+"="+(x!=y||x==y));
+System.out.println(x+"=="+y+"||"+x+"!="+y+"="+(x==y||x!=y));
+System.out.println(x+"=="+y+"||"+x+"<"+y+"="+(x==y||x<y));
+
+
+
+
+	
+					
+	}
+}

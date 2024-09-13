@@ -1,0 +1,20 @@
+package ahii;
+
+public class Ahii {
+
+    public static void main(String[] args) {
+       
+       
+        System.out.println("99 ");
+        
+        int a = 99;
+        
+        
+        if( a>=75){
+            System.out.println("You Passed");
+        } else {
+            System.out.println("You Failed");
+        }
+    }
+    
+}
