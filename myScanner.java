@@ -2,7 +2,7 @@ public class ScannerDemo {
 	public static void main(String[] args) {
 		
 		//instantiate
-		Scanner my Scanner = new bScanner (System.in);
+		Scanner my Scanner = new Scanner (System.in);
 		
 		System.out.println("Enter the grade");
 		int grade = myScanner.nextint();
